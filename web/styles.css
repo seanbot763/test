@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #fff;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #0056b3;
+}
+
+header p, header address, header .bio {
+    margin: 5px 0;
+}
+
+header address a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+header address a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.column {
+    width: 48%;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    border-bottom: 1px solid #0056b3;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    color: #0056b3;
+}
+
+section div {
+    margin-bottom: 10px;
+}
+
+section div h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #0056b3;
+}
+
+section div p {
+    margin: 5px 0 0 0;
+}
+
+a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.date {
+    float: right;
+    color: #666;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+#visitor-counter {
+    color: #0056b3;
+}
